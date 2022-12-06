@@ -1,9 +1,8 @@
 zwierzeta = []
-zwierzeta.append('gepard')
-zwierzeta.append('lama')
-zwierzeta.append('zyrafa')
-zwierzeta.append('slon')
-zwierzeta.append('pies')
-zwierzeta.sort()
+
+for  x in range(7):
+    z = input("Podaj nazwe zwierzecia:" )
+    zwierzeta.append(z)
 print(zwierzeta)
-print(zwierzeta[0],zwierzeta[-3],zwierzeta[-2],zwierzeta[-1])
+zwierzeta.sort()
+print(zwierzeta[0],zwierzeta[-3:],len(zwierzeta))
