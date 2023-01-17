@@ -1,0 +1,10 @@
+import numpy as np
+macierz = np.random.randint(0,50,(5,5))
+print(macierz)
+print('-----------------------')
+print(f'najwieksza wartosc tablicy: {macierz.max()}')
+print(f'najmnejsza wartosc tablicy: {macierz.min()}')
+print('-----------------------')
+print(f'najwieksze wartosci w wierszach: {macierz.max(axis=1)}')
+print(f'najmniejsze wartosci w kolumnach: {macierz.max(axis=0)}')
+print(f'suma w kolumnach: {macierz.sum(axis=1)}')
